@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerCollision : MonoBehaviour
 {
-    public PlayerControls movement;
+    public PlayerController movement;
     public GameObject gameOverPanel;
     public GameObject blockSpawner;
 
