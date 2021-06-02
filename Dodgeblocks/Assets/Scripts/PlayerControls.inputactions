@@ -16,17 +16,6 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "c258ebbf-68fe-4029-9269-fb3538e36d9e",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "Sideways",
                     "id": "0de33a60-fffc-4a64-b960-2544b99876c0",
                     "path": "1DAxis",
