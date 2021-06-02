@@ -348,8 +348,8 @@ GameObject:
   - component: {fileID: 220784280}
   - component: {fileID: 220784283}
   - component: {fileID: 220784284}
-  - component: {fileID: 220784282}
   - component: {fileID: 220784285}
+  - component: {fileID: 220784282}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -431,11 +431,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 220784279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe39d3b8e2bb7d94c93b3c8f3235cf38, type: 3}
+  m_Script: {fileID: 11500000, guid: f54af4d82b5a0794eb340d609f9a3c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  mapWidth: 5
+  speed: 5
 --- !u!50 &220784283
 Rigidbody2D:
   serializedVersion: 4

@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     private PlayerActionControls playerActionControls;
 
     [SerializeField]private float speed;
+    [SerializeField]private float mapWidth = 5.5f;
 
     private void Awake()
     {
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
         in another script before the start of the game
         */
         playerActionControls = new PlayerActionControls();
+
     }
     void Start()
     {
@@ -40,6 +42,15 @@ public class PlayerController : MonoBehaviour
         //Move the player
         Vector3 currentPosition = transform.position;
         currentPosition.x += movementInput * speed * Time.deltaTime;
+        currentPosition.x = Mathf.Clamp(currentPosition.x, -mapWidth, mapWidth);
+        /*        if( currentPosition.x < -mapWidth)
+                {
+                    currentPosition.x = -mapWidth;
+                }
+                else if (currentPosition.x > mapWidth)
+                {
+                    currentPosition.x = mapWidth;
+                }*/
         transform.position = currentPosition;
     }
 }
