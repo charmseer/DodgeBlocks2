@@ -7,6 +7,7 @@ public class DestroyBlocks : MonoBehaviour
     //public float gravityVar = 5;
 
     private Rigidbody2D rb;
+
     [SerializeField] public float downwardForce = 20f;
     // Start is called before the first frame update
     void Start()
