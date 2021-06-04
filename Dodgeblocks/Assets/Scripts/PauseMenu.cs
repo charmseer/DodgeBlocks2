@@ -31,6 +31,7 @@ public class PauseMenu : MonoBehaviour
     public void MainMenu()
     {
         PauseMenuUI.SetActive(false);
+        // When you hit Pause Time Scale freezes, So before you go to Main Menu you have to unfreeze it
         Time.timeScale = 1f;
         GameIsPaused = false;
         SceneManager.LoadScene("Menu");
