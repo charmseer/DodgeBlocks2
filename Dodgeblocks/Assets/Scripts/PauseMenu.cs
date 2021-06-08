@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
 
-    public static bool GameIsPaused = false;
+    //public static bool GameIsPaused = false;
     // Start is called before the first frame update
     public GameObject PauseMenuUI;
 
@@ -18,14 +18,14 @@ public class PauseMenu : MonoBehaviour
     {
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        //GameIsPaused = false;
     }
 
     public void Pause()
     {
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true;
+        //GameIsPaused = true;
     }
 
     public void MainMenu()
@@ -33,7 +33,7 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         // When you hit Pause Time Scale freezes, So before you go to Main Menu you have to unfreeze it
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        //GameIsPaused = false;
         SceneManager.LoadScene("Menu");
     }
 
