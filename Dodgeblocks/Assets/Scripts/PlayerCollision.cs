@@ -18,9 +18,9 @@ public class PlayerCollision : MonoBehaviour
         movement.enabled = false;
 
         //Shows the GameOver Screen
-
         gameOverPanel.SetActive(true);
 
+        //Stops Blockspawner from spawning next wave
         blockSpawner.SetActive(false);
 
         //FindObjectOfType<GameManager>().EndGame();
