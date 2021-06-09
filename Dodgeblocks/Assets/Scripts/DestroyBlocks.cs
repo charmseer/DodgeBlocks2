@@ -32,8 +32,6 @@ public class DestroyBlocks : MonoBehaviour
 
     void OnCollisionEnter2D()
     {
-        
             Destroy(gameObject);
-        
     }
 }

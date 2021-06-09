@@ -13,6 +13,9 @@ public class QuitRestart : MonoBehaviour
     public void RestartGame()
     {
         Debug.Log("We are restarting!");
+        Time.timeScale = 1f; //Had to implement this because Time.timeScale 
+        //was set to 0 on Game Over Screenelse the score goes up when 
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

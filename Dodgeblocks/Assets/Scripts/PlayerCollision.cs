@@ -23,7 +23,13 @@ public class PlayerCollision : MonoBehaviour
         //Stops Blockspawner from spawning next wave
         blockSpawner.SetActive(false);
 
+        //Freezes all blocks when the player collides with a Block.
+        // Had to implement this because else the score goes up when 
+        // the On screen wave descends and hits the ScoreBase
+        Time.timeScale = 0f;
         //FindObjectOfType<GameManager>().EndGame();
+
+
     }
 
 }
