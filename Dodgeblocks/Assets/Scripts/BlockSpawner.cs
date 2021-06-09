@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlockSpawner : MonoBehaviour
 {
-    public Transform[] spawnPoints;
+    public Transform[] spawnPoints; //Array of points where we can spawn the blocks
 
     public GameObject blockPrefab;
 
@@ -28,6 +28,7 @@ public class BlockSpawner : MonoBehaviour
     void SpawnBlocks()
     {
         int randomIndex = Random.Range(0, spawnPoints.Length);
+        // Choose a random spawn point from the spawn points array.
         for (int i=0; i< spawnPoints.Length; i++)
         {
             if (randomIndex != i)
