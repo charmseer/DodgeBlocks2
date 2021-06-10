@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DestroyBlocks : MonoBehaviour
 {
@@ -8,15 +9,23 @@ public class DestroyBlocks : MonoBehaviour
 
     private Rigidbody2D rb;
     float downForce = -3.5f;
-
     //[SerializeField] public float downwardForce = 20f;
-
+    Text score;
+ 
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        score = GameObject.Find("ScoreValue").GetComponent<Text>();
+        //GetComponent<Text>().ScoreValue();
+        //Debug.Log(score.text);
+
         //GetComponent<Rigidbody2D>().gravityScale += Time.timeSinceLevelLoad/gravityVar;
-        rb.velocity = new Vector2(0f, downForce);
+        //Debug.Log(score.text);
+        //rb.velocity = new Vector2(0f, downForce);
+        rb.velocity = new Vector2(0f, downForce - ((float.Parse(score.text)) / 10));
+        Debug.Log(rb.velocity.ToString());
+
 
     }
 
