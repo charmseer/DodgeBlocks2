@@ -16,7 +16,10 @@ public class DestroyBlocks : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        //Finds GameObject called ScoreValue and takes it's Text component and assigns it to the variable score.
         score = GameObject.Find("ScoreValue").GetComponent<Text>();
+
         //GetComponent<Text>().ScoreValue();
         //Debug.Log(score.text);
 
