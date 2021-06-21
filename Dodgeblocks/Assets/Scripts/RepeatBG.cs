@@ -16,7 +16,8 @@ public class RepeatBG : MonoBehaviour
     void Update()
     {
         //Debug.Log(transform.position.y);
-        if (transform.position.y < startPos.y - 8.2)
+        // Offset value works at around 9.9 -10.2 range for this image
+        if (transform.position.y < startPos.y - 10)
         {
             transform.position = startPos;
         }
