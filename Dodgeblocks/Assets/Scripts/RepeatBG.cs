@@ -16,7 +16,7 @@ public class RepeatBG : MonoBehaviour
     void Update()
     {
         //Debug.Log(transform.position.y);
-        if (transform.position.y < startPos.y - 12)
+        if (transform.position.y < startPos.y - 8.2)
         {
             transform.position = startPos;
         }
