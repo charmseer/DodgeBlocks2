@@ -544,7 +544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 546, y: -319}
+  m_AnchoredPosition: {x: 546, y: -367}
   m_SizeDelta: {x: 350, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297449613
@@ -2152,8 +2152,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 418, y: -47}
-  m_SizeDelta: {x: 711.38916, y: 500}
+  m_AnchoredPosition: {x: 418, y: -105}
+  m_SizeDelta: {x: 711.38916, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564565054
 MonoBehaviour:
@@ -2191,7 +2191,7 @@ MonoBehaviour:
   m_Text: "Title Font - \"Sniglet\" \nMade by League of Moveable Type. Sniglet is
     licensed under the SIL Open Font License (OFL)\n\nGrass Texture - \"Pixel art
     grass image\"\nfrom Wikimedia Commons. Licensed under the Creative Commons Attribution-Share
-    Alike 4.0 International license.\n"
+    Alike 4.0 International license.\n\nOnscreen Controls by Kenney Vleugels (www.kenney.nl)\n"
 --- !u!222 &1564565055
 CanvasRenderer:
   m_ObjectHideFlags: 0
