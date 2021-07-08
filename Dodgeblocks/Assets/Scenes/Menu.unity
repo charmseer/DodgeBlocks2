@@ -570,7 +570,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.22745098}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.59607846}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1752,30 +1752,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This game is built upon the Dodge the Blocks Game from Brackeys Livestream
-
-    https://www.youtube.com/watch?v=tyAutnOlsfA&t=3s
-
-
-    Upgrades:
-
-    GameOver,
+  m_Text: "This game is built upon the Dodge the Blocks Game from Brackeys Livestream
+    : \nhttps://www.youtube.com/watch?v=tyAutnOlsfA&t=3s\n\nUpgrades:\nGameOver,
     Pause, Esc and Main Menus were implemented along with a Scoring System, HighScores
-    and Audio. Modified Descend speed mechanism.
-
-
-    TreeBreaking Crash sound from
-    :
-
-    https://freesound.org/people/373676/sounds/368467/
-
-
-    Bass beats Music
-    from https://www.zapsplat.com
-
-
-
-'
+    and Audio. Modified Descend speed mechanism.\n\nTreeBreaking Crash sound from
+    :\nhttps://freesound.org/people/373676/sounds/368467/\n\nBass beats Music from
+    https://www.zapsplat.com\n\n\n"
 --- !u!222 &1064481933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2460,8 +2442,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 418, y: -118.3}
-  m_SizeDelta: {x: 711.38916, y: 546.63574}
+  m_AnchoredPosition: {x: 425, y: -118.3}
+  m_SizeDelta: {x: 725.39514, y: 546.63574}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564565054
 MonoBehaviour:
@@ -2496,18 +2478,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Title Font : Luckiest Guy by Astigmatic - Google Fonts
+  m_Text: 'Fonts from Google Fonts : Roboto Regular
+
+    Luckiest Guy by Astigmatic
+    | Fjalla One by Sorkin Type
 
 
-    Grass Texture
-    - "Pixel art grass image"
 
-    from Wikimedia Commons. Licensed under the Creative
-    Commons Attribution-Share Alike 4.0 International license.
+    Grass Texture - "Pixel art grass image"
+
+    from
+    Wikimedia Commons. Licensed under the Creative Commons Attribution-Share Alike
+    4.0 International license.
 
 
-    Onscreen Controls
-    by Kenney Vleugels (www.kenney.nl)
+    Onscreen Control Button Images by Kenney Vleugels
+    (www.kenney.nl)
 
 '
 --- !u!222 &1564565055
@@ -2535,7 +2521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1590086753
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2893,14 +2879,14 @@ RectTransform:
   m_GameObject: {fileID: 2030713649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.75, y: 2.5, z: 1}
+  m_LocalScale: {x: 1.875, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 681478596}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 202, y: -219}
+  m_AnchoredPosition: {x: 133.9, y: -248}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030713651
