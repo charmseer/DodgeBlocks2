@@ -1019,7 +1019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 484.4, y: -310}
+  m_AnchoredPosition: {x: 505, y: -310}
   m_SizeDelta: {x: 350, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496699063
@@ -2692,8 +2692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: 1.8}
-  m_SizeDelta: {x: 1370.3843, y: 413.05475}
+  m_AnchoredPosition: {x: -12.4, y: -9.5}
+  m_SizeDelta: {x: 1475.8989, y: 403.7813}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710174498
 MonoBehaviour:
@@ -2717,7 +2717,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f37ab48937bf32e41af25f71b256183d, type: 3}
-    m_FontSize: 60
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2728,16 +2728,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Guide the sheep through the gaps in the fences by pressing buttons on
-    the Left or Right of the screen.
-
-
-    Keyboard
-
-    Use A,D keys or Left / Right
-    Arrow keys.
-
-'
+  m_Text: "Guide the sheep through gaps in the fence.\n\nTouch buttons on the Left/Right
+    of the screen to Move.\nLong Press to Glide.\n\nUse A,D keys or Left / Right
+    Arrow keys if \nyou're using a Keyboad.\n"
 --- !u!222 &1710174499
 CanvasRenderer:
   m_ObjectHideFlags: 0
