@@ -2068,7 +2068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1175439884
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2692,8 +2692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1}
-  m_SizeDelta: {x: 1200, y: 600}
+  m_AnchoredPosition: {x: -7, y: 1.8}
+  m_SizeDelta: {x: 1370.3843, y: 413.05475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710174498
 MonoBehaviour:
@@ -2728,8 +2728,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Guide the sheep through the gaps in the fences by pressing buttons on the
-    Left or Right of the screen.
+  m_Text: 'Guide the sheep through the gaps in the fences by pressing buttons on
+    the Left or Right of the screen.
+
+
+    Keyboard
+
+    Use A,D keys or Left / Right
+    Arrow keys.
+
+'
 --- !u!222 &1710174499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2828,7 +2836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2019329839
 RectTransform:
   m_ObjectHideFlags: 0
