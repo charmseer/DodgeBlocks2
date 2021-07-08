@@ -11,7 +11,7 @@ public class DestroyBlocks : MonoBehaviour
     float downForce = -3.5f;
     //[SerializeField] public float downwardForce = 20f;
     Text score;
- 
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -42,8 +42,21 @@ public class DestroyBlocks : MonoBehaviour
 
     }
 
+    /*    void OnCollisionEnter2D(Collider other)
+        {
+            Destroy(gameObject);
+            if (other.gameObject.tag == "Player")
+            {
+                GameObject.Find("CrashStars").SetActive(true);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+
+        }*/
     void OnCollisionEnter2D()
     {
-            Destroy(gameObject);
+        Destroy(gameObject);
     }
 }
